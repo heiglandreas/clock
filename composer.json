@@ -1,0 +1,24 @@
+{
+	"name": "org_heigl/clock",
+	"description": "minimum sample implementation of PSR-20",
+	"keywords": ["psr20", "psr-20", "clock", "clock-interface"],
+	"authors": [{
+		"name": "Andreas Heigl",
+		"email": "andreas@heigl.org",
+		"role": "maintainer"
+	}],
+	"license": "mit",
+	"autoload": {
+		"psr-4": {
+			"Org_Heigl\\Clock\\": "src"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Org_Heigl\\ClockTest\\": "tests"
+		}
+	},
+	"require": {
+		"psr/clock": "*"
+	}
+}
