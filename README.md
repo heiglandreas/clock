@@ -8,7 +8,9 @@ the current date and time (useful for production code) or a predefined one (usef
 ## Usage
 
 ```php
-use Org_Heigl\Clock\FrozenClock;use Org_Heigl\Clock\SystemClock;use Psr\CLock\ClockInterface;
+use Org_Heigl\Clock\FrozenClock;
+use Org_Heigl\Clock\SystemClock;
+use Psr\Clock\ClockInterface;
 
 class App 
 {
