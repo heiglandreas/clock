@@ -21,5 +21,8 @@
 	"require": {
 		"php": "^8.0",
 		"psr/clock": "*"
+	},
+	"provide": {
+		"psr/clock-implementation": "1.0"
 	}
 }
