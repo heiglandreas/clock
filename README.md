@@ -16,7 +16,10 @@ class App
 {
 	public function main(ClockInterface $clock): string
 	{
-	    return sprintf('The current date and time is %s', $clock->now()->format('Y-m-d H:i:s.u'));
+	    return sprintf(
+	        'The current date and time is %s', 
+	        $clock->now()->format('Y-m-d H:i:s.u')
+	    );
 	}
 }
 
