@@ -2,7 +2,7 @@
 
 /*
  * Copyright (c) Andreas Heigl<andreas@heigl.org
- * 
+ *
  * Licensed under the MIT License. See LICENSE.md file in the project root
  * for full license information.
  */
@@ -16,6 +16,9 @@ use PHPUnit\Framework\TestCase;
 
 class SystemClockTest extends TestCase
 {
+	/**
+	 * @covers \Org_Heigl\Clock\SystemClock::now
+	 */
 	public function testSystemClockReturnsAlwaysDifferentResult(): void
 	{
 		$clock = new SystemClock();

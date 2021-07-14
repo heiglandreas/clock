@@ -20,9 +20,13 @@
 	},
 	"require": {
 		"php": "^8.0",
-		"psr/clock": "*"
+		"psr/clock": "dev-master"
 	},
 	"provide": {
 		"psr/clock-implementation": "1.0"
-	}
+	},
+	"repositories": [{
+		"type": "github",
+		"url": "https://github.com/cseufert/clock"
+	}]
 }

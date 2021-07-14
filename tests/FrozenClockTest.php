@@ -2,7 +2,7 @@
 
 /*
  * Copyright (c) Andreas Heigl<andreas@heigl.org
- * 
+ *
  * Licensed under the MIT License. See LICENSE.md file in the project root
  * for full license information.
  */
@@ -15,6 +15,10 @@ use PHPUnit\Framework\TestCase;
 
 class FrozenClockTest extends TestCase
 {
+	/**
+	 * @covers \Org_Heigl\Clock\FrozenClock::__construct
+	 * @covers \Org_Heigl\Clock\FrozenClock::now
+	 */
 	public function testFrozenClockReturnsTheSameResult(): void
 	{
 		$clock = new FrozenClock(new DateTimeImmutable());
