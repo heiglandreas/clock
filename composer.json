@@ -27,6 +27,6 @@
 	},
 	"repositories": [{
 		"type": "github",
-		"url": "https://github.com/cseufert/clock"
+		"url": "https://github.com/psr-fig/clock"
 	}]
 }
